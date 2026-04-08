@@ -603,32 +603,7 @@ Monitoring:
 
 ---
 
-## 📋 Configuration Parameters
 
-```python
-# Image Processing
-IMG_SIZE = 64
-BATCH_SIZE = 16
-NUM_CLASSES = 3
-
-# CNN Training
-EPOCHS = 10
-LEARNING_RATE = 0.001
-OPTIMIZER = 'Adam'
-
-# Quiz Model
-N_ESTIMATORS = 100
-RANDOM_STATE = 42
-
-# Normalization
-MEAN = (0.5, 0.5, 0.5)
-STD = (0.5, 0.5, 0.5)
-
-# Device
-DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
-```
-
----
 
 ## 🎯 System Scalability
 
@@ -653,24 +628,7 @@ Database:
 
 ---
 
-## 📝 API Contract
 
-### Image Prediction Endpoint
-```json
-POST /predict/image
-Request:
-{
-  "image": "base64_encoded_image"
-}
-
-Response:
-{
-  "stage": 1,
-  "confidence": 0.87,
-  "recommendation": "Visit dermatologist",
-  "timestamp": "2024-01-15T10:30:45Z"
-}
-```
 
 ### Quiz Prediction Endpoint
 ```json
@@ -738,17 +696,10 @@ Core Dependencies:
 
 ---
 
-## 📚 References & Resources
-
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Scikit-learn API](https://scikit-learn.org/stable/)
-- [OpenCV Tutorials](https://docs.opencv.org/)
-- [Deep Learning Best Practices](https://arxiv.org/abs/2012.12681)
 
 ---
 
 **Architecture Version:** 1.0  
-**Last Updated:** 2024  
+**Last Updated:** 2025  
 **Maintainer:** HairSenseAI Team
 
