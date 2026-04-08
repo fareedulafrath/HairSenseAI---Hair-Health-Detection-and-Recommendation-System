@@ -1,4 +1,4 @@
-# 🧠 HairSenseAI – Hair Health Detection and Recommendation System
+# 🧠 HairSenseAI – AI-Powered Hair Loss Detection System
 
 HairSenseAI is a next-generation AI system that detects hair loss stages using both image analysis and symptom-based assessment. By combining deep learning and machine learning, it delivers accurate predictions and personalized hair care recommendations to help users take proactive control of their hair health.
 
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-Open 👉 http://localhost:
+Open 👉 http://localhost:8501
 
 ### 💻 Command Line
 ```bash
