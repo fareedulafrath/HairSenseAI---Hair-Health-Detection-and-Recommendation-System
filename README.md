@@ -1,4 +1,4 @@
-# 🧠 HairSenseAI – AI-Powered Hair Loss Detection System
+# 🧠 HairSenseAI – Hair Health Detection and Recommendation System
 
 HairSenseAI is a next-generation AI system that detects hair loss stages using both image analysis and symptom-based assessment. By combining deep learning and machine learning, it delivers accurate predictions and personalized hair care recommendations to help users take proactive control of their hair health.
 
