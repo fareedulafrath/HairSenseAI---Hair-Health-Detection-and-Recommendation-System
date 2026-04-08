@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-Open 👉 http://localhost:8501
+Open 👉 http://localhost:
 
 ### 💻 Command Line
 ```bash
