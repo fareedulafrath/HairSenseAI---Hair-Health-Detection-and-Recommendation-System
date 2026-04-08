@@ -43,7 +43,7 @@ HairSenseAI/
 │── main.py                   # Basic prediction
 │── cnn_train_pytorch.py      # CNN training
 │── quiz_model_train.py       # Quiz model training
-│── train_model.py            # KNN model
+│── train_model.py           
 │── visualize_dashboard.py    # Dashboard
 │
 ├── models/
